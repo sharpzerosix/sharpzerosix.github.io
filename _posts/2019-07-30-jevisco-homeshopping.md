@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "제비스코(제비표 페인트) 홈쇼핑 영상 제작기"
 date:   2019-07-30 17:00:00 +0900
 categories: media

@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          샵공육 기술 블로그
+description:    "이 블로그는 샵공육이 미디어와 IT 분야에서 활동하면서 성장하는 이야기를 담는 블로그입니다."
 baseurl:        ""
-url:            "https://chesterhow.github.io"
+url:            "https://sharpzerosix.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         샵공육
+  url:          https://sharpzerosix.com
+  email:        support@sharpzerosix.com
 
 # Build settings
 markdown:       kramdown
@@ -31,7 +31,7 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:      //:title
 paginate:       5
 
 # Excludes
