@@ -4,9 +4,6 @@ description:    "이 블로그는 샵공육이 미디어와 IT 분야에서 활�
 baseurl:        ""
 url:            "https://sharpzerosix.github.io"
 
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
-
 # Author
 author:
   name:         샵공육
@@ -31,7 +28,7 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      //:title
+permalink:      /:title
 paginate:       5
 
 # Excludes
