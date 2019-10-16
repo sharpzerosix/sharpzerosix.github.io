@@ -1,0 +1,11 @@
+---
+layout: default
+title:  "제비스코(제비표 페인트) 홈쇼핑 영상 제작기"
+date:   2019-07-30 17:00:00 +0900
+categories: media
+---
+## "안녕하세요. 정지용 PD님 강남제비스코 김OO대리입니다..."
+## pre-production.
+이제는 홈쇼핑 영상을 만들랍니다.
+## production.
+## post-production.
