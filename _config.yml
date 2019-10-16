@@ -6,9 +6,9 @@ url:            "https://sharpzerosix.github.io"
 
 # Author
 author:
-  name:         샵공육
-  url:          https://sharpzerosix.com
-  email:        support@sharpzerosix.com
+  name:
+  url: https://sharpzerosix.com
+  email: support@sharpzerosix.com
 
 # Build settings
 markdown:       kramdown
