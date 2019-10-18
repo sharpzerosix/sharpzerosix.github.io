@@ -26,7 +26,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-seo-tag
 
   # - jemoji #Uncomment this to allow emoji in your post
 
