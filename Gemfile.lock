@@ -67,6 +67,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll-feed
   jekyll-sitemap
   tale
 
