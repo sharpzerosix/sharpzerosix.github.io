@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "SBS 스폐셜 521회 청소년 파트 제작기"
+description: ssss
 date:   2018-10-01 19:00:00 +0900
 categories: media
 author: 정지용
