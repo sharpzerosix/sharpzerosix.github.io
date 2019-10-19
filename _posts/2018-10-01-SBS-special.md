@@ -18,3 +18,5 @@ author: 정지용
 
 <iframe width="100%" src="https://www.youtube.com/embed/4mUM1PzzjCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
+일단 여기에 뭐가 들어가야 하는데<br>
+유튜브가 짤려서 나온다 오또까징
