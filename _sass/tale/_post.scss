@@ -67,17 +67,23 @@
     border-bottom: 1px solid ;
   }
   .author-title{
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .author-info {
     margin-top: 3px;
     margin-left: 20%;
   }
-  .nick-name a{
+  .nick-name {
     margin-right: 10px;
     font-weight: bold;
-    font-size: 20px;
-    color: #4d5256;
+    a {
+      font-size: 20px;
+      color: #4d5256;
+    }
+  p {
+    margin: 0 0 0.5em;
+    font-size: 17px;
+  }  
   }
   .description {
     font-weight: 400;
@@ -89,6 +95,11 @@
     padding: 0;
     border-radius: 50%;
     float: left;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
   .sns a {
     margin: -5px 2px 0 0;
@@ -105,6 +116,13 @@
   .homepage-icon {
     display: inline-block;
     background-image: url(/assets/members/icons/homepage.png);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+  }
+  .instagram-icon {
+    display: inline-block;
+    background-image: url(/assets/members/icons/instagram.png);
     background-size: 24px 24px;
     width: 24px;
     height: 24px;
