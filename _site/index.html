@@ -105,3 +105,38 @@ wcs_do();
               
           <span>1</span>
         </div>
+    </main>
+    <!-- footer start -->
+<footer>
+  <span>
+    Copyright <time datetime="2019-10-21 21:13:14 +0900">2019</time>. <a href="https://sharpzerosix.com">sharpzerosix</a>. All right reserved.   Powered by <a href="https://pages.github.com/">GitHub Pages</a>.
+  </span>
+
+  <!-- Load Facebook messenger SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v4.0'
+      });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/ko_KR/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="134421533831974"
+theme_color="#000000">
+  </div>
+</footer>
+<!-- footer end -->
+  </body>
+</html>
+  
