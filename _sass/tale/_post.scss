@@ -3,7 +3,6 @@
 
   &-info {
     color: $default-tint;
-    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
     letter-spacing: 0.5px;
     text-align: center;
 
@@ -14,7 +13,6 @@
 
   &-title {
     color: $default-shade;
-    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
     font-size: 2.5rem;
     margin: 1rem 0;
     text-align: center;
@@ -28,6 +26,7 @@
   }
 
   p {
+    font-weight: 100;
     margin: 0 0 1rem;
     text-align: justify;
   }
