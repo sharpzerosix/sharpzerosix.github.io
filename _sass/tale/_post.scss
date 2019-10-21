@@ -3,7 +3,7 @@
 
   &-info {
     color: $default-tint;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
     letter-spacing: 0.5px;
     text-align: center;
 
@@ -14,7 +14,7 @@
 
   &-title {
     color: $default-shade;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
     font-size: 2.5rem;
     margin: 1rem 0;
     text-align: center;
@@ -36,14 +36,10 @@
     text-decoration: underline;
   }
 
-  img {
-
-  }
-
   img + em {
     color: $default-tint;
     display: block;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;
@@ -60,4 +56,73 @@
     padding: 0;
     margin: 0;
   }
+
+
+/* about */
+  .sharpzerosix_intro{
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
+    font-style: Thin;
+    font-size: 18px;
+  }
+  .author {
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
+    overflow: auto;
+    padding: 30px 0;
+    border-bottom: 1px solid ;
+  }
+  .author-title {
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
+    margin-top: 100px;
+  }
+  .author-info {
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
+    margin-top: 3px;
+    margin-left: 20%;
+  }
+  .nick-name a{
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4d5256;
+  }
+  .description {
+    font-family: 'Noto Sans', 'Noto Sans CJK', sans-serif;
+    color: #696969;
+    font-size: 16px;
+  }
+  .author img {
+    width: 14%;
+    padding: 0;
+    border-radius: 50%;
+    float: left;
+  }
+  .sns a {
+    margin: -5px 2px 0 0;
+    vertical-align: middle;
+  }
+
+  .facebook-icon {
+    display: inline-block;
+    background-image: url(/assets/members/icons/facebook.png);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+  }
+  .homepage-icon {
+    display: inline-block;
+    background-image: url(/assets/members/icons/homepage.png);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+  }
+  //members 간격
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 }
