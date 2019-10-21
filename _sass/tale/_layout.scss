@@ -56,14 +56,14 @@ a[role=button] {
     height: 190px;
   }
   .bg-item {
+    background-position: center center;
     background-image: url(/assets/home-bg.jpg);
-    background-position-x: 60%;
   }
   .description {
     margin-top: 32px;
   }
   p.text {
-    margin: 0 0 8px;
+    margin: 0.375rem 0px 1.875rem;
     font-size: 28px;
     line-height: 37px;
   }
