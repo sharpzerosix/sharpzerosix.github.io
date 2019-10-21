@@ -51,7 +51,27 @@ a[role=button] {
   border-radius: 2px;
   color: #ffffff;
 }
-
+@media (max-width: 600px){
+  .home-banner {
+    height: 190px;
+  }
+  .bg-item {
+    background-image: url(/assets/home-bg.jpg);
+    background-position-x: 60%;
+  }
+  .description {
+    margin-top: 32px;
+  }
+  p.text {
+    margin: 0 0 8px;
+    font-size: 28px;
+    line-height: 37px;
+  }
+  .dimmed a[role=button] {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
 main,
 footer,
 .nav-container {
