@@ -3,4 +3,4 @@
 source "https://rubygems.org"
 gem "tale"
 gem 'jekyll-sitemap'
-gem 'jekyll-feed'
+

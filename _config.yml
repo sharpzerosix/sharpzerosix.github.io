@@ -22,10 +22,9 @@ sass:
 
 # Gems
 plugins:
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
+
 
   # - jemoji #Uncomment this to allow emoji in your post
 
