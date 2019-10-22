@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+  <head>
+  <meta charset="UTF-8">
+  <title>웹기반 종합 회계 시스템 greta 기획안</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="이 블로그는 미디어와 IT 분야에서 활동하면서 성장하는 샵공육의 이야기를 담는 블로그입니다.">
+  <meta property="og:title" content="웹기반 종합 회계 시스템 greta 기획안">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:url" content="https://sharpzerosix.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://sharpzerosix.github.io/assets/bg.jpg">
+  <meta name=”keywords” content ="기술블로그, 샵공육, 미디어, 영상, 홍보, 창업, 스타트업">
+  <link rel="canonical" href="https://sharpzerosix.github.io/">
+  <link rel="alternate" type="rss+xml" title="샵공육 기술 블로그" href="http://localhost:4000/feed.xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,700|Noto+Sans:400,700&display=swap&subset=korean" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://sharpzerosix.github.io/assets/favicon/favicon.ico">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="샵공육 기술 블로그" />
+
+  <!-- Google Analytics-->
+  <!-- start analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138871923-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138871923-2');
+</script>
+
+<!-- Naver Analytics -->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "216d97c8dbfb40";
+wcs_do();
+</script>
+<!-- end analytics -->
+</head>
+  
+  <body>
+
+    <nav class="nav">
+  <div class="nav-container">
+    <a href="/">
+      <h2 class="nav-title">샵공육 기술 블로그</h2>
+    </a>
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/">Posts</a></li>
+    </ul>
+  </div>
+</nav>
+
+    
+    <main>
+      <div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    
+        정지용
+    
+
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2019-06-30 19:00:00 +0900">June 30, 2019</time>
+    
+  </div>
+
+  <h1 class="post-title">웹기반 종합 회계 시스템 greta 기획안</h1>
+  <div class="post-line"></div>
+
+  <p><img src="https://raw.githubusercontent.com/StopDragon/greta-service-model/master/logo/greta%20logo.png" width="200" /><br /></p>
+
+<h2 id="1-team-introduce">1. Team Introduce</h2>
+<ul>
+  <li>TEAM NAME: idiot-brothers</li>
+  <li>SERVICE NAME: <a href="https://github.com/greta-develop">greta-github</a></li>
+  <li>MEMBERS:
+    <ul>
+      <li><a href="https://github.com/StopDragon">Jung Jiyong</a> (Creative Director and UX/UI Designer)
+        <ul>
+          <li>jiyong210@gmail.com</li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/getsolaris">Kim Mingeun</a> (Backend Developer)
+        <ul>
+          <li>mingeun.k.k@gmail.com</li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/kys6879">Kim Yeongseo</a> (Frontend Developer)
+        <ul>
+          <li>yskim@markany.com</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="2-service-model">2. Service Model</h2>
+<h3 id="21-planning-the-road">2.1. Planning the road</h3>
+<p>평소 계모임이나 학교 동아리, 학생회, 비영리 단체 등을 보면서 투명하지 못한 회계로 인해 내부 분열이나 횡령의 문제가 발생하고 있습니다. <br />
+사람들은 나름 이러한 문제를 해결하기 위해 투명하게 엑셀이나 구글 시프트를 이용해서 장부를 작성하지만 이 또한 분식회계가 가능하기 때문에 조작이 불가능하면서도 투명한 장부를 작성할 수 있는 서비스를 만들게 되었습니다.</p>
+<h3 id="22-service-user">2.2. Service User</h3>
+<p>계모임 총무, 동아리, 학생회, 소규모 단체, 비영리 단체, 마을 등 장부 공개가 필요하고 투명하게 조직을 운영하고 싶은 사람들</p>
+<h3 id="23-service-advantages">2.3. Service Advantages</h3>
+<ul>
+  <li>데이터 불가변성을 우선으로 raw파일은 수정이 불가능하기 때문에 고신뢰성</li>
+  <li>오송금, 오사용 등으로 인한 내용은 flow작성으로 대체 가능</li>
+  <li>일반 사용자들이 무료로 이용할 수 있음</li>
+  <li>모두가 언제나 장부를 조회할 수 있음</li>
+  <li>AI 로보어드바이저가 매달 리포트를 작성해주어 자금 운용에 도움을 받을 수 있음
+    <h3 id="24-service-function">2.4. Service function</h3>
+  </li>
+  <li>계좌 등록 (KB_API로 유효성 검사)</li>
+  <li>KB_API를 이용하여 거래 내역 불러오기</li>
+  <li>AI를 활용하여 거래 내역 자동 감사</li>
+  <li>영수증 첨부하기</li>
+  <li>익명으로 답글 남기기</li>
+  <li>AI 로보어드바이저가 매달 리포트 작성하여 이메일 전송</li>
+  <li>데이터 자체 수정이 불가능함으로 flow형식으로 알아보기 쉽게 사유, 등 정정 가능
+    <h3 id="25-competitiveness">2.5. Competitiveness</h3>
+  </li>
+  <li>시중에 나와있는 경리 프로그램들은 유료, 그리고 대기업, 중소기업을 타겟으로 함. 반면 greta는 무료, 누구나 영리적인 목적만 아니면 사용가능</li>
+  <li>greta의 가장 큰 장점인 데이터 불가변성 때문에 타 프로그램과 달리 경리가 조작 불가능</li>
+</ul>
+
+<h2 id="3-design">3. Design</h2>
+<h3 id="31-prototype">3.1. Prototype</h3>
+<p><img src="https://raw.githubusercontent.com/StopDragon/greta-service-model/master/source/log_in_page.png" alt="Prototype design1" />
+<br />
+<img src="https://raw.githubusercontent.com/StopDragon/greta-service-model/master/source/list.png" alt="Prototype design2" />
+<br />
+<img src="https://raw.githubusercontent.com/StopDragon/greta-service-model/master/source/list%20menu.png" alt="Prototype design3" />
+<br />
+<img src="https://raw.githubusercontent.com/StopDragon/greta-service-model/master/source/flow.png" alt="Prototype design4" /></p>
+
+<h3 id="32-color">3.2. Color</h3>
+<p><img src="https://raw.githubusercontent.com/StopDragon/greta-service-model/master/source/color.png" alt="color_code" /></p>
+
+</div>
+<div>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v4.0&appId=365110947694119&autoLogAppEvents=1"></script>
+
+<div class="fb-comments" data-href="https://sharpzerosix.github.io" data-width="100%" data-numposts="5"></div>
+</div>
+
+<div class="pagination">
+  
+    <a href="/jevisco-homeshopping" class="left arrow">&#8592;</a>
+  
+  
+    <a href="/SBS-special" class="right arrow">&#8594;</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <!-- footer start -->
+<footer>
+  <span>
+    Copyright <time datetime="2019-10-22 16:04:35 +0900">2019</time>. <a href="https://sharpzerosix.com">sharpzerosix</a>. All right reserved.   Powered by <a href="https://pages.github.com/">GitHub Pages</a>.
+  </span>
+
+  <!-- Load Facebook messenger SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v4.0'
+      });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/ko_KR/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="134421533831974"
+theme_color="#000000">
+  </div>
+</footer>
+<!-- footer end -->
+  </body>
+</html>
