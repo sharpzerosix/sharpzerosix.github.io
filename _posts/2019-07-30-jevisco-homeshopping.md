@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "제비스코(제비표 페인트) 홈쇼핑 영상 제작기"
+title:  "제비스코 드림 코트(제비표 페인트) 홈쇼핑 영상 제작기"
 date:   2019-07-30 17:00:00 +0900
 categories: media
 author: 정지용
